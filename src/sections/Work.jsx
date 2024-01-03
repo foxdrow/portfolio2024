@@ -16,7 +16,7 @@ export default function Work() {
       <h2>Work projects</h2>
       <section id="projects">
         <div id="marvelApp">
-          <a href="https://github.com/foxdrow/MarvelApp" target="_blank">
+          <a href="https://github.com/foxdrow/MarvelApp" target="_blank" rel="noreferrer">
             <h4>Marvel App</h4>
           </a>
           <p>
@@ -24,15 +24,15 @@ export default function Work() {
             a glossary of all Character, Comics and Creators of Marvel Comics.
           </p>
           <p className="skill">TypeScript React Sass ApiRequest</p>
-          <a href="https://github.com/foxdrow/MarvelApp" target="_blank">
-            <img src={marvelApp1} className="topImage"></img>
-            <img src={marvelApp2}></img>
+          <a href="https://github.com/foxdrow/MarvelApp" target="_blank" rel="noreferrer">
+            <img src={marvelApp1} className="topImage" alt="marvelApp1"></img>
+            <img src={marvelApp2} alt="marvelApp2"></img>
           </a>
         </div>
         <div id="graphql">
           <a
             href="https://github.com/foxdrow/basicGraphQLSocialAPI"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <h4>GraphQL API</h4>
           </a>
@@ -43,9 +43,9 @@ export default function Work() {
           <p className="skill">JavaScript GraphQL Node.js PrismaV2</p>
           <a
             href="https://github.com/foxdrow/basicGraphQLSocialAPI"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
-            <img src={graphql}></img>
+            <img src={graphql} alt="graphql"></img>
           </a>
         </div>
         <div id="network">
@@ -55,10 +55,10 @@ export default function Work() {
             machines
           </p>
           <p className="skill">GNS3 PacketTracer Wireshark VMware</p>
-          <img src={GNS3}></img>
+          <img src={GNS3} alt="GNS3"></img>
         </div>
         <div id="twitter">
-          <a href="https://github.com/foxdrow/Php-twitter" target="_blank">
+          <a href="https://github.com/foxdrow/Php-twitter" target="_blank" rel="noreferrer">
             <h4>Twitter PHP</h4>
           </a>
           <p>
@@ -66,35 +66,35 @@ export default function Work() {
             (tweet, messaging, followers, following...)
           </p>
           <p className="skill">PHP MySql JavaScript Jquery</p>
-          <a href="https://github.com/foxdrow/Php-twitter" target="_blank">
-            <img src={twitter}></img>
+          <a href="https://github.com/foxdrow/Php-twitter" target="_blank" rel="noreferrer">
+            <img src={twitter} alt="twitter"></img>
           </a>
         </div>
         <div id="cssfr">
-          <a href="https://github.com/foxdrow/my_css_framework" target="_blank">
+          <a href="https://github.com/foxdrow/my_css_framework" target="_blank" rel="noreferrer">
             <h4>My CSS Framework</h4>
           </a>
           <p>A CSS Framework realise with Sass</p>
           <p className="skill">SCSS CSS HTML</p>
-          <a href="https://github.com/foxdrow/my_css_framework" target="_blank">
-            <img src={cssfr1} className="topImage"></img>
-            <img src={cssfr2}></img>
+          <a href="https://github.com/foxdrow/my_css_framework" target="_blank" rel="noreferrer">
+            <img src={cssfr1} className="topImage" alt="cssfr1"></img>
+            <img src={cssfr2} alt="cssfr2"></img>
           </a>
         </div>
         <div id="irc">
-          <a href="https://github.com/foxdrow/IRC-Socket.io" target="_blank">
+          <a href="https://github.com/foxdrow/IRC-Socket.io" target="_blank" rel="noreferrer">
             <h4>IRC chat Application</h4>
           </a>
           <p>A IRC chat Application create with Socket.io</p>
           <p className="skill">JavaScript Socket.io React Node.js SCSS</p>
-          <a href="https://github.com/foxdrow/IRC-Socket.io" target="_blank">
-            <img src={IRC}></img>
+          <a href="https://github.com/foxdrow/IRC-Socket.io" target="_blank" rel="noreferrer">
+            <img src={IRC} alt="IRC"></img>
           </a>
         </div>
         <div id="api">
           <a
             href="https://github.com/foxdrow/task-manager-rest-api"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <h4>REST API Node.js</h4>
           </a>
@@ -105,19 +105,19 @@ export default function Work() {
           <p className="skill">JavaScript Node.js MongoBD Mongoose Postman</p>
           <a
             href="https://github.com/foxdrow/task-manager-rest-api"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
-            <img src={API}></img>
+            <img src={API} alt="API"></img>
           </a>
         </div>
         <div id="snap">
-          <a href="https://github.com/foxdrow/SnapchatClone" target="_blank">
+          <a href="https://github.com/foxdrow/SnapchatClone" target="_blank" rel="noreferrer">
             <h4>Snapchat React Native</h4>
           </a>
           <p>A Snapchat clone built with React native 👻</p>
           <p className="skill">JavaScript ReactNative Node.js</p>
-          <a href="https://github.com/foxdrow/SnapchatClone" target="_blank">
-            <img src={snap}></img>
+          <a href="https://github.com/foxdrow/SnapchatClone" target="_blank" rel="noreferrer">
+            <img src={snap} alt="snap"></img>
           </a>
         </div>
         <p className="conclusion">

@@ -42,12 +42,12 @@ export default function About() {
             Git GitHub Docker Heroku AWS Vim PhotoShop Adobe XD
           </p>
           <div className="cvButton">
-            <a className="CV" href={CV} download>
+            <a className="CV" href={CV} download alt="CV">
               CV
             </a>
           </div>
         </div>
-        <img src={logo} className="logoBig" />
+        <img src={logo} className="logoBig" alt="logo"></img>
       </section>
       <section id="passions">
         <h3>Passions</h3>
@@ -68,12 +68,12 @@ export default function About() {
         <div id="reading">
           <h4>Reading</h4>
           <p>Relax me and develop my Imagination.</p>
-          <img src={catRead} alt="sekiro"></img>
+          <img src={catRead} alt="catRead"></img>
         </div>
         <div id="music">
           <h4>Classical music</h4>
           <p>Help me to stay focus.</p>
-          <img src={music} alt="sekiro"></img>
+          <img src={music} alt="music"></img>
         </div>
       </section>
     </div>

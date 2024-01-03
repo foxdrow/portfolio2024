@@ -11,7 +11,7 @@ export default function Contact() {
           <h4>Mail</h4>
           <p className="mail"><a href="mailto:rapha.saverys@gmail.com">rapha.saverys@gmail.com</a></p>
         </div>
-        <img src={anime}></img>
+        <img src={anime} alt="anime"></img>
       </section>
     </div>
   );
