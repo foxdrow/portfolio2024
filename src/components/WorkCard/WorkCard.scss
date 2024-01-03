@@ -1,0 +1,64 @@
+/*----------- COLORS -----------*/
+
+$black: #000;
+$white: #fff;
+$primary: #4066e0;
+$paragraph: #c5c5c5;
+
+/*----------- FONT-SIZE -----------*/
+
+$s-size: 1.5rem;
+$m-size: 1.8rem;
+$h1-size: 10rem;
+$h2-size: 7rem;
+$h3-size: 5rem;
+
+.workCard {
+  display: flex;
+  flex-direction: column;
+  img {
+    max-width: 30vw;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  p:not(.skill) {
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    font-size: $m-size;
+    color: $paragraph;
+    padding-top: 1.7rem;
+    width: 45rem;
+  }
+}
+
+.rightWorkCard {
+  align-items: flex-end;
+  p:not(.skill) {
+    text-align: end;
+  }
+}
+
+@media (max-width: 1200px) {
+  .workCard {
+    padding-top: 7rem;
+    img {
+      max-width: 70vw;
+    }
+    p:not(.skill) {
+      font-size: 2.2rem;
+      width: 70vw;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .workCard {
+    img {
+      max-width: 70vw;
+    }
+    p:not(.skill) {
+      font-size: 1.8rem;
+    }
+  }
+}
