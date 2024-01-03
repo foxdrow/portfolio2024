@@ -27,3 +27,21 @@ $m-size: 1.8rem;
 .rightPassionCard {
   align-items: flex-end;
 }
+@media (max-width: 1200px) {
+  .passionCard {
+    padding-top: 5rem;
+    img {
+      max-width: 55vw;
+    }
+    p {
+      font-size: 2.2rem;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .passionCard {
+    p {
+      font-size: 1.8rem;
+    }
+  }
+}
