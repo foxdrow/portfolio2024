@@ -1,0 +1,29 @@
+$paragraph: #c5c5c5;
+$m-size: 1.8rem;
+
+@mixin passion-card {
+  display: flex;
+  flex-direction: column;
+  img {
+    max-width: 27vw;
+    padding-top: 3rem;
+  }
+  p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    font-size: $m-size;
+    color: $paragraph;
+    padding-top: 1.7rem;
+  }
+}
+
+.passionCard {
+  @include passion-card;
+  .right {
+    align-items: flex-end;
+  }
+}
+
+.rightPassionCard {
+  align-items: flex-end;
+}
