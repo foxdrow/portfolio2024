@@ -1,0 +1,90 @@
+#contact {
+  margin-left: 8.333vw;
+  margin-right: 8.333vw;
+  padding-top: 20vh;
+  padding-bottom: 20rem;
+  #explore {
+    padding-top: 10rem;
+    margin-left: 14vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: space-between;
+    p:not(.mail) {
+      font-family: "Raleway", sans-serif;
+      font-weight: 100;
+      font-size: $m-size;
+      color: $paragraph;
+      padding-bottom: 8rem;
+    }
+    .textBox {
+      margin-right: 10vw;
+      max-width: 45rem;
+      .mail {
+        color: $primary;
+        font-family: "Hind Siliguri", sans-serif;
+        padding-top: 1.7rem;
+        font-size: $m-size;
+      }
+      a:hover {
+        color: $white;
+      }
+    }
+    img {
+      width: 35vw;
+      height: 18vw;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #contact {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    #explore {
+      padding-top: 10rem;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      p:not(.mail) {
+        font-size: 2.2rem;
+      }
+      .textBox {
+        margin-right: 10vw;
+        max-width: 70vw;
+        .mail {
+          color: $primary;
+          font-family: "Hind Siliguri", sans-serif;
+          padding-top: 1.7rem;
+          font-size: 2.5rem;
+        }
+        a:hover {
+          color: $white;
+        }
+      }
+      img {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  #contact {
+    #explore {
+      padding-top: 2rem;
+      p:not(.mail) {
+        font-size: 1.8rem;
+      }
+      .textBox {
+        margin-right: 10vw;
+        max-width: 90vw;
+        .mail {
+          font-size: 2.2rem;
+        }
+      }
+      img {
+        display: none;
+      }
+    }
+  }
+}

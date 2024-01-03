@@ -1,0 +1,230 @@
+#about {
+  margin-left: 8.333vw;
+  margin-right: 8.333vw;
+  padding-top: 20vh;
+  .logoBig {
+    width: 500px;
+    height: 500px;
+  }
+
+  /*------------------ WHO I AM ------------------*/
+
+  #whoIAm {
+    padding-top: 10rem;
+    margin-left: 14vw;
+    margin-right: 3vw;
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-family: "Raleway", sans-serif;
+      font-weight: 100;
+      font-size: $m-size;
+      color: $paragraph;
+    }
+    .skill {
+      font-family: "Raleway", sans-serif;
+      font-weight: 500;
+      color: $primary;
+      font-size: $s-size;
+      padding-bottom: 4rem;
+      padding-top: 2rem;
+      word-spacing: 1rem;
+      max-width: 61rem;
+    }
+    .cvButton {
+      background-color: $primary;
+      width: 5rem;
+      height: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: $s-size;
+      border-radius: 3rem;
+      .CV:hover {
+        color: $primary;
+      }
+    }
+
+    .cvButton:hover {
+      background-color: $white;
+      color: $primary;
+    }
+  }
+  /*------------------ PASSIONS ------------------*/
+
+  #passions {
+    padding-top: 10rem;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    margin-top: 12rem;
+    .intro {
+      font-family: "Raleway", sans-serif;
+      font-weight: 100;
+      font-size: $m-size;
+      color: $paragraph;
+      max-width: 55rem;
+    }
+    .skill {
+      font-family: "Raleway", sans-serif;
+      font-weight: 500;
+      color: $primary;
+      font-size: $s-size;
+      padding-bottom: 4rem;
+      padding-top: 2rem;
+      word-spacing: 1rem;
+      max-width: 50rem;
+    }
+    #videoGame {
+      display: flex;
+      flex-direction: column;
+      img {
+        max-width: 27vw;
+        padding-top: 3rem;
+      }
+      p {
+        font-family: "Raleway", sans-serif;
+        font-weight: 100;
+        font-size: $m-size;
+        color: $paragraph;
+        padding-top: 1.7rem;
+      }
+    }
+    #reading {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      img {
+        max-width: 27vw;
+        padding-top: 3rem;
+      }
+      p {
+        font-family: "Raleway", sans-serif;
+        font-weight: 100;
+        font-size: $m-size;
+        color: $paragraph;
+        padding-top: 1.7rem;
+      }
+    }
+    #music {
+      display: flex;
+      flex-direction: column;
+      img {
+        max-width: 27vw;
+        padding-top: 3rem;
+      }
+      p {
+        font-family: "Raleway", sans-serif;
+        font-weight: 100;
+        font-size: $m-size;
+        color: $paragraph;
+        padding-top: 1.7rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #about {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 20vh;
+    .logoBig {
+      display: none;
+    }
+
+    /*------------------ WHO I AM ------------------*/
+
+    #whoIAm {
+      padding-top: 10rem;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      p {
+        font-size: 2.3rem;
+      }
+      .skill {
+        font-size: 1.5rem;
+      }
+      .cvButton {
+        background-color: $primary;
+        width: 7rem;
+        height: 4rem;
+        font-size: 1.7rem;
+      }
+    }
+    /*------------------ PASSIONS ------------------*/
+
+    #passions {
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 12rem;
+      .intro {
+        font-size: 2.3rem;
+        max-width: 85rem;
+      }
+      .skill {
+        font-size: 1.5rem;
+      }
+      #videoGame {
+        padding-top: 5rem;
+        img {
+          max-width: 55vw;
+        }
+        p {
+          font-size: 2.2rem;
+        }
+      }
+      #reading {
+        padding-top: 5rem;
+        img {
+          max-width: 55vw;
+        }
+        p {
+          font-size: 2.2rem;
+        }
+      }
+      #music {
+        padding-top: 5rem;
+        img {
+          max-width: 55vw;
+        }
+        p {
+          font-size: 2.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  #about {
+    /*------------------ WHO I AM ------------------*/
+
+    #whoIAm {
+      padding-top: 2rem;
+      p {
+        font-size: 1.8rem;
+      }
+      .skill {
+        font-size: 1.3rem;
+      }
+    }
+    /*------------------ PASSIONS ------------------*/
+
+    #passions {
+      .intro {
+        font-size: 1.8rem;
+      }
+      .skill {
+        font-size: 1.3rem;
+      }
+      #videoGame,
+      #reading,
+      #music {
+        p {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+}

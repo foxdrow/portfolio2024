@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  font-family: Futura;
+  font-size: $s-size;
+  width: 37, 5vw;
+  margin-left: 8.333vw;
+  margin-right: 8.333vw;
+  padding-top: 5rem;
+}
+
+.logo {
+  width: 100px;
+}
+.navbar a {
+  margin: 0 1rem 0 2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+@media (max-width: 1200px) {
+  .navbar a {
+    display: none;
+  }
+}

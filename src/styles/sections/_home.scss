@@ -1,0 +1,48 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  .name {
+    font-size: 3.5rem;
+    font-family: "Hind Siliguri", sans-serif;
+    line-height: 6rem;
+  }
+  p {
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
+  }
+}
+
+.homeSpace {
+  height: 100vh;
+}
+.royal {
+  color: $primary;
+}
+
+@media (max-width: 1200px) {
+  .home {
+    align-items: flex-start;
+    margin-left: 10vw;
+    .name {
+      font-size: 3.5rem;
+    }
+    p {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .home {
+    .name {
+      font-size: 2.7rem;
+      line-height: 5rem;
+    }
+    p {
+      font-size: 1.7rem;
+    }
+  }
+}
