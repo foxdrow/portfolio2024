@@ -16,5 +16,8 @@ COPY package.json ./
 # add app
 COPY . ./
 
+# expose port 80
+EXPOSE 80
+
 # start app
 CMD ["npm", "start"]
