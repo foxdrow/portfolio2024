@@ -1,23 +1,24 @@
-# pull official base image
-FROM node:20
+# Stage 1: Build the React application 
+FROM node:14 as build
 
-# set working directory
 WORKDIR /app
 
-# add `/app/node_modules/.bin` to $PATH
-ENV PATH /app/node_modules/.bin:$PATH
+COPY package*.json ./
 
-# install app dependencies
-COPY package.json ./
-# COPY package-lock.json ./
 RUN npm install
-# RUN npm install react-scripts@3.4.1 -g --silent
 
-# add app
-COPY . ./
+COPY . .
 
-# expose port 80
+RUN npm run build
+
+# Stage 2: Serve the React application using Nginx
+FROM nginx:stable-alpine
+
+COPY --from=build /app/build /usr/share/nginx/html
+
+# Copy the default nginx.conf provided by the docker image
+COPY nginx/nginx.conf /etc/nginx/conf.d/default.conf
+
 EXPOSE 80
 
-# start app
-CMD ["npm", "start"]
+CMD ["nginx", "-g", "daemon off;"]
