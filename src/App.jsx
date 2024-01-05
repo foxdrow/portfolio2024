@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import "./styles/style.scss";
 import Navbar from "./sections/Navbar";
-import Home from "./sections/Home";
+import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Work from "./sections/Work";
 import Contact from "./sections/Contact";
@@ -11,7 +11,7 @@ function App() {
     <Fragment>
       <div className="homeSpace">
         <Navbar />
-        <Home />
+        <Hero />
       </div>
       <About />
       <Work />

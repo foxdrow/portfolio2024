@@ -1,4 +1,43 @@
 {
+    "whoIAm": {
+        "description": "I am Raphael, Full-stack developer with knowledge of JavaScript frameworks, both frontend and backend with a focus on React and Node.js.\n I am above all a self-taught person, but I followed a 1-year web curriculum at Epitech Nantes.",
+        "softSkills": "Autonomous ProblemSolving Eager Analytic Organized Teamwork QuickLearner",
+        "skills": [
+            {
+                "title": "Languages",
+                "skills": "JavaScript TypeScript HTML CSS PHP Python SQL"
+            },
+            {
+                "title": "Framework",
+                "skills": "React.js Next.js ReactNative Node.js GraphQL Jest Redux Express.js MySQL PostgreSQL MongoDB Sass"
+            },
+            {
+                "title": "Computer Network",
+                "skills": "Protocols TCP/IP Subnetting Routing Tracing DNS VLan Cloud LoadBalancing"
+            },
+            {
+                "title": "Others",
+                "skills": "Git GitHub Docker Heroku AWS Vim PhotoShop Adobe XD"
+            }
+        ]
+    },
+    "passions": [
+        {
+            "title": "Video games",
+            "description": "Improve my creativity.",
+            "image": "/assets/img/AdorableShrillCougar-size_restricted.gif"
+        },
+        {
+            "title": "Reading",
+            "description": "Relax me and develop my Imagination.",
+            "image": "/assets/img/catRead.webp"
+        },
+        {
+            "title": "Classical music",
+            "description": "Help me to stay focus.",
+            "image": "/assets/img/music.jpg"
+        }
+    ],
     "works": [
         {
             "title": "Marvel App",

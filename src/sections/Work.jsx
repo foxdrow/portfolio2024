@@ -3,7 +3,6 @@ import data from "../data.json";
 import WorkCard from "../components/WorkCard/WorkCard";
 
 export default function Work() {
-
   return (
     <div id="work">
       <h2>Work projects</h2>
@@ -18,12 +17,9 @@ export default function Work() {
             image={project.image}
             link={project.link}
             right={(index + 1) % 2 === 0}
-            loading="lazy" // Lazy loading attribute
           />
         ))}
-        <p className="conclusion">
-          And other projects available on my github!
-        </p>
+        <p className="conclusion">And other projects available on my github!</p>
       </section>
     </div>
   );

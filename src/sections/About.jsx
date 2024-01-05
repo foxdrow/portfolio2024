@@ -3,6 +3,8 @@ import React from "react";
 import SkillsItem from "../components/SkillsItem/SkillsItem";
 import PassionCard from "../components/PassionCard/PassionCard";
 
+import data from "../data.json";
+
 export default function About() {
   return (
     <div id="about">
@@ -10,42 +12,27 @@ export default function About() {
       <section id="whoIAm">
         <div className="textBox">
           <h3>Who I am</h3>
-          <p>
-            I am Raphael, Full-stack developer with knowledge of JavaScript
-            frameworks, both frontend and backend with a focus on React and
-            Node.js.
-          </p>
-          <p>
-            I am above all a self-taught person, but I followed a 1-year web
-            curriculum at Epitech Nantes.
-          </p>
-          <p className="skill">
-            Autonomous ProblemSolving Eager Analytic Organized Teamwork
-            QuickLearner
-          </p>
-          <SkillsItem
-            title="Languages"
-            skills="JavaScript TypeScript HTML CSS PHP Python SQL"
-          />
-          <SkillsItem
-            title="Framework"
-            skills="React.js Next.js ReactNative Node.js GraphQL Jest Redux Express.js MySQL PostgreSQL MongoDB Sass"
-          />
-          <SkillsItem
-            title="Computer Network"
-            skills="Protocols TCP/IP Subnetting Routing Tracing DNS VLan Cloud LoadBalancing"
-          />
-          <SkillsItem
-            title="Others"
-            skills="Git GitHub Docker Heroku AWS Vim PhotoShop Adobe XD"
-          />
+          <p>{data.whoIAm.description}</p>
+          <p className="skill">{data.whoIAm.softSkills}</p>
+          {data.whoIAm.skills.map((skill, index) => (
+            <SkillsItem key={index} title={skill.title} skills={skill.skills} />
+          ))}
           <div className="cvButton">
-            <a className="CV" href="/assets/download/RESUME-Raphael-Saverys.pdf" download alt="CV">
+            <a
+              className="CV"
+              href="/assets/download/RESUME-Raphael-Saverys.pdf"
+              download
+              alt="CV"
+            >
               CV
             </a>
           </div>
         </div>
-        <img src="/assets/img/Logo foxdrow blue.png" className="logoBig" alt="logo"></img>
+        <img
+          src="/assets/img/Logo foxdrow blue.png"
+          className="logoBig"
+          alt="logo"
+        ></img>
       </section>
       <section id="passions">
         <h3>Passions</h3>
@@ -58,22 +45,15 @@ export default function About() {
             Creativity Ambition Fantasy Imagination Fun Relaxation
           </p>
         </div>
-        <PassionCard
-          title="Video games"
-          description="Improve my creativity."
-          image="/assets/img/AdorableShrillCougar-size_restricted.gif"
-        />
-        <PassionCard
-          title="Reading"
-          description="Relax me and develop my Imagination."
-          image="/assets/img/catRead.webp"
-          right
-        />
-        <PassionCard
-          title="Classical music"
-          description="Help me to stay focus."
-          image="/assets/img/music.jpg"
-        />
+        {data.passions.map((passion, index) => (
+          <PassionCard
+            key={index}
+            title={passion.title}
+            description={passion.description}
+            image={passion.image}
+            right={(index + 1) % 2 === 0}
+          />
+        ))}
       </section>
     </div>
   );
