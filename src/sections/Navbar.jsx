@@ -1,9 +1,8 @@
-import logo from "../assets/img/Logo foxdrow2.png";
 
 export default function Navbar() {
   return (
     <div className="navbar">
-      <img src={logo} className="logo" alt="logo"></img>
+      <img src="/assets/img/Logo foxdrow2.png" className="logo" alt="logo"></img>
       <a href="https://github.com/foxdrow" target="_blank" rel="noreferrer">
         GITHUB / &gt;
       </a>

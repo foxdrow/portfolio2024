@@ -1,9 +1,4 @@
 import React from "react";
-import logo from "../assets/img/Logo foxdrow blue.png";
-import dq11 from "../assets/img/AdorableShrillCougar-size_restricted.gif";
-import music from "../assets/img/music.jpg";
-import catRead from "../assets/img/catRead.webp";
-import CV from "../assets/download/RESUME-Raphael-Saverys.pdf";
 
 import SkillsItem from "../components/SkillsItem/SkillsItem";
 import PassionCard from "../components/PassionCard/PassionCard";
@@ -45,12 +40,12 @@ export default function About() {
             skills="Git GitHub Docker Heroku AWS Vim PhotoShop Adobe XD"
           />
           <div className="cvButton">
-            <a className="CV" href={CV} download alt="CV">
+            <a className="CV" href="/assets/download/RESUME-Raphael-Saverys.pdf" download alt="CV">
               CV
             </a>
           </div>
         </div>
-        <img src={logo} className="logoBig" alt="logo"></img>
+        <img src="/assets/img/Logo foxdrow blue.png" className="logoBig" alt="logo"></img>
       </section>
       <section id="passions">
         <h3>Passions</h3>
@@ -66,18 +61,18 @@ export default function About() {
         <PassionCard
           title="Video games"
           description="Improve my creativity."
-          image={dq11}
+          image="/assets/img/AdorableShrillCougar-size_restricted.gif"
         />
         <PassionCard
           title="Reading"
           description="Relax me and develop my Imagination."
-          image={catRead}
+          image="/assets/img/catRead.webp"
           right
         />
         <PassionCard
           title="Classical music"
           description="Help me to stay focus."
-          image={music}
+          image="/assets/img/music.jpg"
         />
       </section>
     </div>

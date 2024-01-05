@@ -1,5 +1,5 @@
 import React from "react";
-import anime from "../assets/img/72757.gif";
+
 export default function Contact() {
   return (
     <div id="contact">
@@ -11,7 +11,7 @@ export default function Contact() {
           <h4>Mail</h4>
           <p className="mail"><a href="mailto:rapha.saverys@gmail.com">rapha.saverys@gmail.com</a></p>
         </div>
-        <img src={anime} alt="anime"></img>
+        <img src="/assets/img/72757.gif" alt="anime"></img>
       </section>
     </div>
   );
