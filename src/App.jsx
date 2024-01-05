@@ -16,6 +16,7 @@ function App() {
       <About />
       <Work />
       <Contact />
+      <div/>
     </Fragment>
   );
 }
