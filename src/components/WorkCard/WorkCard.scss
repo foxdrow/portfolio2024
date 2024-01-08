@@ -1,3 +1,4 @@
+$primary: #4066e0;
 $paragraph: #c5c5c5;
 $m-size: 1.8rem;
 
@@ -18,6 +19,15 @@ $m-size: 1.8rem;
     padding-top: 1.7rem;
     width: 45rem;
   }
+  .title {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 2.7rem;
+    color: #fff;
+    line-height: 3rem;
+    &:hover {
+      color: $primary;
+    }
+  }
 }
 
 .rightWorkCard {
@@ -37,6 +47,9 @@ $m-size: 1.8rem;
       font-size: 2.2rem;
       width: 70vw;
     }
+    .title {
+      font-size: 3.2rem;
+    }
   }
 }
 
@@ -47,6 +60,9 @@ $m-size: 1.8rem;
     }
     p:not(.skill) {
       font-size: 1.8rem;
+    }
+    .title {
+      font-size: 2.8rem;
     }
   }
 }

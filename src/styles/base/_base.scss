@@ -80,6 +80,4 @@ h4 {
 }
 
 @include googleFonts("Hind+Siliguri:wght@300&display=swap");
-@include googleFonts(
-  "family=Raleway:ital,wght@0,100;0,400;0,500;0,600;1,200;1,300&display=swap"
-);
+@include googleFonts("Raleway:ital,wght@0,100;0,400;0,500;0,600;1,200;1,300&display=swap");

@@ -8,12 +8,12 @@ export const WorkCard = ({
   image,
   topImage,
   link,
-  right
+  right,
 }) => {
   return (
     <div className={`workCard ${right ? "rightWorkCard" : ""}`}>
       <a href={link} target="_blank" rel="noreferrer">
-        <h4>{title}</h4>
+        <h3 className="title">{title}</h3>
       </a>
       <p>{description}</p>
       <p className="skill">{skill}</p>

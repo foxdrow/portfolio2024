@@ -1,4 +1,5 @@
-import React, { Fragment } from "react";
+import React from "react";
+
 import "./styles/style.scss";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
@@ -8,7 +9,7 @@ import Contact from "./sections/Contact";
 
 function App() {
   return (
-    <Fragment>
+    <div>
       <div className="homeSpace">
         <Navbar />
         <Hero />
@@ -16,8 +17,7 @@ function App() {
       <About />
       <Work />
       <Contact />
-      <div />
-    </Fragment>
+    </div>
   );
 }
 export default App;
