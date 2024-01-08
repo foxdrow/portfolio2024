@@ -7,7 +7,7 @@ export default function Navbar() {
         GITHUB / &gt;
       </a>
       <a
-        href="https://www.linkedin.com/in/raphael-saverys-668392216/"
+        href="https://www.linkedin.com/in/raphaelsaverys"
         target="_blank"
         rel="noreferrer"
       >

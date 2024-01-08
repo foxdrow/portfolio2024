@@ -51,7 +51,7 @@
             "title": "GraphQL API",
             "description": "I have create a basic social API using GraphQL and the prisma.io v2 ORM",
             "skill": "JavaScript GraphQL Node.js PrismaV2",
-            "image": "/assets/img/twitter.webp",
+            "image": "/assets/img/graphql.webp",
             "link": "https://github.com/foxdrow/basicGraphQLSocialAPI"
         },
         {
