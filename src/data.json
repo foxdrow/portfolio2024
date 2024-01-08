@@ -35,7 +35,7 @@
         {
             "title": "Classical music",
             "description": "Help me to stay focus.",
-            "image": "/assets/img/music.jpg"
+            "image": "/assets/img/music.webp"
         }
     ],
     "works": [
@@ -43,65 +43,65 @@
             "title": "Marvel App",
             "description": "This web app is built in React, Nodejs and styling with sass and is a glossary of all Character, Comics and Creators of Marvel Comics.",
             "skill": "TypeScript React Sass ApiRequest",
-            "topImage": "/assets/img/marvelApp1.png",
-            "image": "/assets/img/marvelApp2.png",
+            "topImage": "/assets/img/marvelApp1.webp",
+            "image": "/assets/img/marvelApp2.webp",
             "link": "https://github.com/foxdrow/MarvelApp"
         },
         {
             "title": "GraphQL API",
             "description": "I have create a basic social API using GraphQL and the prisma.io v2 ORM",
             "skill": "JavaScript GraphQL Node.js PrismaV2",
-            "image": "/assets/img/twitter.png",
+            "image": "/assets/img/twitter.webp",
             "link": "https://github.com/foxdrow/basicGraphQLSocialAPI"
         },
         {
             "title": "Network",
             "description": "I am able to simulate and set up an entire network with virtual machines",
             "skill": "GNS3 PacketTracer Wireshark VMware",
-            "image": "/assets/img/gns3.png",
+            "image": "/assets/img/gns3.webp",
             "link": "#"
         },
         {
             "title": "Twitter PHP",
             "description": "Create a clone of twitter with many functionality and features (tweet, messaging, followers, following...)",
             "skill": "PHP MySql JavaScript Jquery",
-            "image": "/assets/img/twitter.png",
+            "image": "/assets/img/twitter.webp",
             "link": "https://github.com/foxdrow/Php-twitter"
         },
         {
             "title": "My CSS Framework",
             "description": "A CSS Framework realise with Sass",
             "skill": "SCSS CSS HTML",
-            "topImage": "/assets/img/cssfr1.png",
-            "image": "/assets/img/cssfr2.png",
+            "topImage": "/assets/img/cssfr1.webp",
+            "image": "/assets/img/cssfr2.webp",
             "link": "https://github.com/foxdrow/my_css_framewor"
         },
         {
             "title": "IRC chat Application",
             "description": "A IRC chat Application create with Socket.io",
             "skill": "JavaScript Socket.io React Node.js SCSS",
-            "image": "/assets/img/IRC.png",
+            "image": "/assets/img/IRC.webp",
             "link": "https://github.com/foxdrow/IRC-Socket.io"
         },
         {
             "title": "REST API Node.js",
             "description": "A complete REST Api using asynchronous requests, and communicate with a MongoBD database using mongoose",
             "skill": "JavaScript Node.js MongoBD Mongoose Postman",
-            "image": "/assets/img/API.png",
+            "image": "/assets/img/API.webp",
             "link": "https://github.com/foxdrow/task-manager-rest-api"
         },
         {
             "title": "SEO Optimization",
             "description": "I proposed and executed enhancements, optimizing code, implementing Schema.org for local SEO, adding social media metas, and improving accessibility for a comprehensive website improvement project.",
             "skill": "SEO Performance Accessibility Audit Lighthouse RichSnippets",
-            "image": "/assets/img/seo.png",
+            "image": "/assets/img/seo.webp",
             "link": "https://github.com/foxdrow/ninacarducci-SEO"
         },
         {
             "title": "Website Debugging",
             "description": "I debugged the code of the 724events website, completed the recipe book for testing, and delivered project outcomes, including a repository link and a filled recipe book in PDF format.",
             "skill": "Debugging Testing",
-            "image": "/assets/img/debug.png",
+            "image": "/assets/img/debug.webp",
             "link": "https://github.com/foxdrow/727events"
         }
     ]

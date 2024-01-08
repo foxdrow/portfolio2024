@@ -29,7 +29,7 @@ export default function About() {
           </div>
         </div>
         <img
-          src="/assets/img/Logo foxdrow blue.png"
+          src="/assets/img/Logo foxdrow blue.webp"
           className="logoBig"
           alt="logo"
         ></img>
