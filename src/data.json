@@ -17,7 +17,7 @@
             },
             {
                 "title": "Others",
-                "skills": "Git GitHub Docker Heroku AWS Vim PhotoShop Adobe XD"
+                "skills": "Git SEO Docker AWS Vim PhotoShop AdobeXD"
             }
         ]
     },
@@ -89,6 +89,20 @@
             "skill": "JavaScript Node.js MongoBD Mongoose Postman",
             "image": "/assets/img/API.png",
             "link": "https://github.com/foxdrow/task-manager-rest-api"
+        },
+        {
+            "title": "SEO Optimization",
+            "description": "I proposed and executed enhancements, optimizing code, implementing Schema.org for local SEO, adding social media metas, and improving accessibility for a comprehensive website improvement project.",
+            "skill": "SEO Performance Accessibility Audit Lighthouse RichSnippets",
+            "image": "/assets/img/seo.png",
+            "link": "https://github.com/foxdrow/ninacarducci-SEO"
+        },
+        {
+            "title": "Website Debugging",
+            "description": "I debugged the code of the 724events website, completed the recipe book for testing, and delivered project outcomes, including a repository link and a filled recipe book in PDF format.",
+            "skill": "Debugging Testing",
+            "image": "/assets/img/debug.png",
+            "link": "https://github.com/foxdrow/727events"
         }
     ]
 }
